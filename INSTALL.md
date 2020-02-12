@@ -32,7 +32,9 @@ This will make the bot generate a users.db file. (Here: /home/armour/moose/armou
 # ADD YOURSELF TO ARMOUR
 Make sure that you are in this path: /home/armour/moose/armour/db/sql/ and type: sqlite3 moose-unet.db
 Copy paste this(assuming your nickname is Seb and xusername is also Seb: 
-  INSERT into users (user,xuser,level,pass) values('Seb','Seb',500,'foo');
+
+> INSERT into users (user,xuser,level,pass) values('Seb','Seb',500,'foo');
+
 THEN make sure you telnet the eggdrop with NEW as your nickname. (This will create the first account)
 in TELNET type this: .tcl userdb:db:load
 After that: .rehash
