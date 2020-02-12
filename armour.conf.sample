@@ -106,7 +106,7 @@ set arm(cfg.db.save) 10
 # -- md5 type (md5|md5sum) - [md5]
 # - bsd: md5
 # - linux: md5sum
-set arm(cfg.md5) "md5"
+set arm(cfg.md5) "md5sum"
 
 # -- alert users if they don't have a password set? (0|1) - [0]
 set arm(cfg.alert.nopass) 1
