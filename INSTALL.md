@@ -50,9 +50,9 @@ Make sure that you are in this path: /home/armour/moose/armour/db/sql/
 
 type: sqlite3 moose-unet.db
 
-Copy paste this(assuming your nickname is Seb and xusername is also Seb: 
+Copy paste this(assuming your nickname is Alpha Your X Username is Beta: (Password does not matter, you will change it)
 
-> INSERT into users (user,xuser,level,pass) values('Seb','Seb',500,'foo');
+> INSERT into users (user,xuser,level,pass) values('Alpha','Beta',500,'hunter2');
 
 THEN make sure you telnet the eggdrop with NEW as your nickname. (This will create the first account)
 
@@ -63,3 +63,5 @@ After that: .rehash
 In TELNET make the bot join the 2 channels (console chan and main chan) with .+chan #chan
 
 you should be AUTOLOGIN, if not, just /hop the room.
+
+Change your password with: /msg moose newpass nothunter2
