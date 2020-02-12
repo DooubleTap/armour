@@ -1,11 +1,14 @@
 This is a rudimentary setup instruction gathered by a few different users of the script.
 
 # Let's assume a few things for this install
-# The bot will be ARMOUR (lower caps) 
-# And the bot nickame will be MOOSE (lower caps)
+
+The bot will be ARMOUR (lower caps) 
+
+And the bot nickame will be MOOSE (lower caps)
 
 # INSTALL DEPENDENCIES
-sudo apt-get install libsqlite3-tcl sqlite3 
+
+> sudo apt-get install libsqlite3-tcl sqlite3 
 
 cd /home/armour/
 
