@@ -35,7 +35,9 @@ ALSO add this line at the bottom of moose-unet.conf: source armour/$uservar.conf
 
 now in this folder /home/armour/moose/: git clone https://github.com/empus/armour.git
 
-EDIT armour.sample.conf and save it as: moose-unet.conf (yes, same as your eggdrop.conf name)
+cd into: /home/armour/moose/armour/ (The result from the GIT CLONE)
+
+EDIT armour.sample.conf and save it as: moose-unet.conf (yes, same as your eggdrop.conf name one folder before)
 
 now, in /home/armour/moose/armour/ create the directory /db/  and in /db/ create /sql/
 
